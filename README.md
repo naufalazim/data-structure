@@ -26,4 +26,4 @@
 
 ## Screenshots
 
-![App Screenshot]([https://via.placeholder.com/468x300?text=App+Screenshot+Here](https://github.com/naufalazim/java-data-structures/blob/main/big-o-chart.png)https://github.com/naufalazim/java-data-structures/blob/main/big-o-chart.png)
+![App Screenshot](https://github.com/naufalazim/java-data-structures/blob/main/big-o-chart.png)
