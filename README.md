@@ -24,6 +24,6 @@
   - Nested loops for each power of n.
   - Example: Bubble sort (O(n2)).
 
-## Screenshots
+### Big-O Complexity
 
 ![App Screenshot](https://github.com/naufalazim/java-data-structures/blob/main/big-o-chart.png)
