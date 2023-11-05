@@ -37,5 +37,5 @@ Theta (Θ) - Average Case
 - In simple terms: It tells you what to generally expect in terms of time complexity.
 Big O (O) - Worst Case
 
-- What it means: Big O (O) describes the worst-case scenario for an algorithm.
+What it means: Big O (O) - describes the worst-case scenario for an algorithm.
 - In simple terms: It tells you the slowest an algorithm can run in the worst circumstances
