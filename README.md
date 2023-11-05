@@ -27,3 +27,15 @@
 ### Big-O Complexity
 
 ![App Screenshot](https://github.com/naufalazim/java-data-structures/blob/main/big-o-chart.png)
+
+Omega (Ω) – Best Case
+- What it means: Omega (Ω) describes the best-case scenario for an algorithm.
+- In simple terms: It tells you the fastest an algorithm can run in the best
+circumstances.
+
+Theta (Θ) - Average Case
+- In simple terms: It tells you what to generally expect in terms of time complexity.
+Big O (O) - Worst Case
+
+- What it means: Big O (O) describes the worst-case scenario for an algorithm.
+- In simple terms: It tells you the slowest an algorithm can run in the worst circumstances
