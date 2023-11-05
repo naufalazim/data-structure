@@ -24,3 +24,6 @@
   - Nested loops for each power of n.
   - Example: Bubble sort (O(n2)).
 
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
