@@ -57,10 +57,25 @@ public class LinkedList {
         System.out.println("Length: " + length);
     }
 
+    //Empty:
+    public void makeEmpty(int value) {
+        head = null;
+        tail = null;
+        length = 0;
+    }
+
     //Append:
     public void append(int value) {
         Node newNode = new Node(value); //create new node
-        
+        //If empty Linked List:
+        if(length == 0) {
+            head = newNode;
+            tail = newNode;
+        }else {
+            tail.next = newNode;
+            tail = newNode;
+        }
+        length++;
     }
 
 }
