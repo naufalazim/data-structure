@@ -39,3 +39,6 @@ Big O (O) - Worst Case
 
 What it means: Big O (O) - describes the worst-case scenario for an algorithm.
 - In simple terms: It tells you the slowest an algorithm can run in the worst circumstances
+
+
+## Linked List
