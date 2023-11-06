@@ -1,3 +1,5 @@
+package LinkedList;
+
 // THIS CODE GOES IN YOUR LINKEDLIST CLASS:
 // ----------------------------------------
 
@@ -23,8 +25,6 @@ public class LinkedList {
         tail = newNode;
         length = 1;
     }
-
-
 
 	//////////////////////////////////////////////////////////////
 	
@@ -57,5 +57,10 @@ public class LinkedList {
         System.out.println("Length: " + length);
     }
 
-}
+    //Append:
+    public void append(int value) {
+        Node newNode = new Node(value); //create new node
+        
+    }
 
+}
