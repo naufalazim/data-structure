@@ -93,7 +93,7 @@ public class LinkedList {
         length--;
         if(length == 0) {
             head = null;
-            tail = null
+            tail = null;
         }
         return temp;
     }
