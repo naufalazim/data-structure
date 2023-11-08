@@ -111,4 +111,17 @@ public class LinkedList {
         return temp;
     }
 
+    //Get menthod:
+    public Node get(int index) {
+        if(index < 0 || index >= length){
+            return null; //if index below 0 and more than index have
+        }
+
+        Node temp = head;
+        for(int i = 0; i < index; i++){
+            temp = temp.next;
+        }
+        return temp;
+    }
+
 }
