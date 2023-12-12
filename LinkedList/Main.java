@@ -18,22 +18,12 @@ public class Main {
         myLinkedList.getHead();
         myLinkedList.getTail();
         myLinkedList.getLength();
+        myLinkedList.insert(1, 1); //insert func
 
         System.out.println("\nLinked List:");
         myLinkedList.printList();
         
-        /*
-       		EXPECTED OUTPUT:
-        	----------------
-        	Head: 1
-        	Tail: 2
-        	Length: 2
-        
-        	Linked List:
-        	1
-        	2
-        
-     	*/
+ 
 
     }
     
