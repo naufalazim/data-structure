@@ -41,6 +41,17 @@ public class Main {
         myLinkedList.printList();
 
          */
+
+         //REVERSE:
+         /*
+        System.out.println("LL before reverse():");
+        myLinkedList.printList();
+
+        myLinkedList.reverse();
+
+        System.out.println("\nLL after reverse():");
+        myLinkedList.printList();
+          */
         
  
 
