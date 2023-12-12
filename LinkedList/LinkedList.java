@@ -98,6 +98,19 @@ public class LinkedList {
         return temp;
     }
 
+    //Prepend:
+    public void prepend(int value) {
+        Node newNode = new Node(value);
+        if (length == 0) {
+            head = newNode;
+            tail = newNode;
+        } else {
+            newNode.next = head;
+            head = newNode;
+        }
+        length++;
+    }
+
     //Remove First
     public Node removeFirst(){
         if(length == 0) return null;
@@ -132,5 +145,29 @@ public class LinkedList {
         }
         return false;
     }
+
+    //INSERT:
+    public boolean insert(int index, int value) {
+        //error exception:
+        if(index < 0 || index > length) return false;
+
+        if(index == 0){
+            prepend(value);
+            return true;
+        }
+        if(index == length){
+            append(value);
+            return true;
+        }
+
+        Node newNode = new Node(value); //create node
+        Node temp = get( index -1); //node one before the index;
+        newNode.next = temp.next;
+        temp.next = newNode;
+        length++;
+        return true;
+
+    }
+  
 
 }
