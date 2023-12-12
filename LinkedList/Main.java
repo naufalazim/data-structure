@@ -22,6 +22,25 @@ public class Main {
 
         System.out.println("\nLinked List:");
         myLinkedList.printList();
+
+        //REMOVE:
+        /*
+         System.out.println("\nRemoved node:");
+        System.out.println(myLinkedList.remove(2).value);
+        System.out.println("LL after remove() in middle:");
+        myLinkedList.printList();
+
+        System.out.println("\nRemoved node:");
+        System.out.println(myLinkedList.remove(0).value);
+        System.out.println("LL after remove() of first node:");
+        myLinkedList.printList();
+
+        System.out.println("\nRemoved node:");
+        System.out.println(myLinkedList.remove(2).value);
+        System.out.println("LL after remove() of last node:");
+        myLinkedList.printList();
+
+         */
         
  
 
